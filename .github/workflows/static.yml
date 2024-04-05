@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Subham Chatterjee - Cyber Security Enthusiast</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+    .container {
+        text-align: center;
+        margin-top: 50px;
+    }
+    h1 {
+        font-size: 36px;
+        color: #333;
+    }
+    p {
+        font-size: 18px;
+        color: #666;
+    }
+    .section {
+        margin-top: 50px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Subham Chatterjee</h1>
+    <p>Beginner Cyber Security Enthusiast</p>
+</div>
+
+<div class="section">
+    <h2>Subdomain Enumeration</h2>
+    <p>Subdomain enumeration is the process of discovering subdomains associated with a domain. This is often performed for various reasons including security assessment, vulnerability research, and reconnaissance. Tools such as Sublist3r, Knock, and DNSDumpster are commonly used for subdomain enumeration.</p>
+</div>
+
+<div class="section">
+    <h2>Subdomain Takeover Experience</h2>
+    <p>I have successfully identified a subdomain takeover vulnerability on a Shopify site during my security assessments. This involved finding a subdomain that pointed to a resource (e.g., a CNAME record) controlled by the attacker. By taking over this resource, the attacker could potentially control the subdomain's functionality, leading to various security risks.</p>
+</div>
+
+</body>
+</html>
